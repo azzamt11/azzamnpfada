@@ -165,11 +165,37 @@
         </div>
 
         <div class= "container section-recomendations">
-            <p class= "background-text bg-text-5">Contacts</p>
-            <div class= "small-text contacts-small-title">MY CONTACTS</div>
-            <div class= "main-text contacts-title">Feel Free to Contact Me On The Following Channels</div>
+            <p class= "background-text bg-text-5">Referre</p>
+            <div class= "small-text recomm-small-title">REFERRENCE</div>
+            <div class= "main-text recomm-title">Recommendations From Experts</div>
             <div class= "rotated rotated-recomm">
                 <p class= "rotated-text">REFERRENCE</p><div class= "short-line"></div>
+            </div>
+            <div class= "recomm-list">
+                <div class= "recomm-container">
+                    <div class= "recomm-photo rp-1"></div>
+                    <div class= "recomm-content">
+                        <div class= "recomm-text rt-1"><i>"(The recommendation message)."</i></div>
+                        <div class= "recomm-author ra-1">Author 1 - Description</div>
+                    </div>
+                </div>
+                <div class= "recomm-container">
+                    <div class= "recomm-photo rp-2"></div>
+                    <div class= "recomm-content">
+                        <div class= "recomm-text rt-2"><i>"(The recommendation message)."</i></div>
+                        <div class= "recomm-author ra-2">Author 2 - Description</div>
+                    </div>
+                </div>
+            </div>
+            <div class= "page-indicator pi-5"><div class= "grey-line gl"></div><p>Page 5</p><div class= "grey-line gl"></div><p>Referrence</p></div>
+        </div>
+
+        <div class= "container section-contacts">
+            <p class= "background-text bg-text-6">Contacts</p>
+            <div class= "small-text contacts-small-title">MY CONTACTS</div>
+            <div class= "main-text contacts-title">Feel Free to Contact Me On The Following Channels</div>
+            <div class= "rotated rotated-contacts">
+                <p class= "rotated-text">CONTACTS</p><div class= "short-line"></div>
             </div>
             <div class= "contacts-list">
                 <a href="https://wa.me/+62895429811999">
@@ -204,7 +230,6 @@
                 any additional package, software, or library. 
                 To visit the web version of this portfolio, visit this <a href= "https://azzamnpfada.netlify.app">link</a>.</p></div>
             <div class= "page-indicator pi-6"><div class= "grey-line gl"></div><p>Page 6</p><div class= "grey-line gl"></div><p>Contacts</p></div>
-            <div class= "page-indicator pi-5"><div class= "grey-line gl"></div><p>Page 5</p><div class= "grey-line gl"></div><p>Contacts</p></div>
         </div>
     </div>
 
@@ -445,9 +470,15 @@
             left: 400px;
             width: 600px;
         }
-        .contacts-title {
+        .recomm-title {
             font-size: 55px;
             top: 6978px;
+            left: 90px;
+            width: 800px;
+        }
+        .contacts-title {
+            font-size: 55px;
+            top: 8705px;
             left: 270px;
             width: 700px;
             text-align: center;
@@ -478,12 +509,17 @@
         .contacts-small-title {
             position: absolute;
             left: 500px;
-            top: 6950px;
+            top: 8685px;
         }
         .works-ctd-small-title {
             position: absolute;
             left: 90px;
             top: 5210px;
+        }
+        .recomm-small-title {
+            position: absolute;
+            left: 90px;
+            top: 6950px;
         }
         .skills-container {
             height: 1000px;
@@ -587,6 +623,14 @@
         .bl {
             color: #ca82f8; 
         }
+        .recomm-list {
+            width: 800px;
+            position: absolute;
+            left: 90px;
+            top: 7328px;
+            display: flex;
+            flex-direction: column;
+        }
         .recomm-container {
             width: 800px;
             display: flex;
@@ -629,7 +673,7 @@
         }
         .contacts-list {
             position: absolute;
-            top: 7178px;
+            top: 9005px;
             left: 326px;
             width: 580px;
             display: flex;
@@ -689,7 +733,7 @@
             align-items: center;
             justify-content: flex-start;
             position: absolute;
-            top: 7829px;
+            top: 10129px;
             left: 326px;
             color: grey;
         }
